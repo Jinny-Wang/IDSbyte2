@@ -35,7 +35,7 @@ TABLE_ID = '1VlPiBCkYt_Vio-JT3UwM-U__APurJvPb6ZEJPg'
 
 # This is the default columns for the query
 query_cols = []
-query_values = ['Forlan'] #Change to be the value(s) you're querying in the column you've specified
+query_values = ['1970'] #Change to be the value(s) you're querying in the column you've specified
 
 # Import the Flask Framework
 from flask import Flask, request
