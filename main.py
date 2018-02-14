@@ -34,7 +34,12 @@ service = build('fusiontables', 'v1', developerKey=API_KEY)
 TABLE_ID = '1VlPiBCkYt_Vio-JT3UwM-U__APurJvPb6ZEJPg'
 
 # This is the default columns for the query
-query_cols = []
+query_cols = ['HS_2534','SC_2534','BAp_2534','BAo_2534','GD_2534']
+# HS  High school graduate or less (EDUCD < 65)
+# SC  Some college (EDUCD >= 65 & <= 100)
+# BAp Bachelor's degree or more (EDUCD > 100)
+# BAo Bachelor's degree, no graduate degre (EDUCD > 100 & <= 113)
+# GD
 query_values = ['1970'] #Change to be the value(s) you're querying in the column you've specified
 
 # Import the Flask Framework
