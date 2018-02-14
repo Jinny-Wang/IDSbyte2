@@ -71,7 +71,7 @@ def make_query(cols, values, limit):
     string_values = string_values[2:len(string_values)]
     
     #Change this query to have your corresponding column (in our soccer example, the column for our WHERE is Scorer).
-    query = "SELECT " + string_cols + " FROM " + TABLE_ID + " WHERE Scorer = '" + string_values + "'"
+    query = "SELECT " + string_cols + " FROM " + TABLE_ID + " WHERE year = '" + string_values + "'"
 
     query = query + " LIMIT " + str(limit)
 
